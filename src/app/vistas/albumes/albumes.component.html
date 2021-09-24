@@ -1,0 +1,29 @@
+<app-header></app-header>
+
+<h2> Lista de Albumes</h2>
+<div class="container text-center">
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th scope="col">userId</th>
+                <th scope="col">id</th>
+                <th scope="col">title</th>
+                <th scope="col">photo</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let album of albumes!">
+                <th scope="row">{{album.userId}}</th>
+                <td>{{album.id}}</td>
+                <td>{{album.title}}</td>
+                <td><img src="assets/smile_off.png" width="50px" height="50px" alt=""></td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+<app-footer></app-footer>

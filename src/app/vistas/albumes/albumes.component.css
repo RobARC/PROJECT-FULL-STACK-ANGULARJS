@@ -1,0 +1,12 @@
+.table {
+  display: table-row;
+}
+td {
+  align-items: center;
+  padding-left: 50px;
+  background-color: steelblue;
+}
+th {
+  align-items: center;
+  background-color: steelblue;
+}
